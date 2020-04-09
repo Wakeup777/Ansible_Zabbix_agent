@@ -1,2 +1,12 @@
 ---
 # handlers file for zabbix_agent
+- name: Start Zabbix and Enable it on the every boot
+  service:
+    name: zabbix-agent
+    state: started
+    enabled: yes
+- name: Restart Zabbix 
+  service:
+    name: zabbix-agent
+    state: restarted
+    
