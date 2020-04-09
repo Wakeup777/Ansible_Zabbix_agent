@@ -25,6 +25,9 @@
     destination_port: "10050"
     jump: ACCEPT
     action: insert
+  notify:
+   - save iptables
+  
 
 ##mysql
 

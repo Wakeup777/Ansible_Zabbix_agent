@@ -10,3 +10,8 @@
     name: zabbix-agent
     state: restarted
     
+- name: save iptables
+  shell: "iptables-save > /etc/sysconfig/iptables"
+  become: true
+  changed_when: false    
+    
