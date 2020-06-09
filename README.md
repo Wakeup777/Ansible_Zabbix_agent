@@ -10,4 +10,10 @@ how is it work ?
 5. 5th, work has been done, check it
 
 
+Мне надо сделать в шаблоне забикса для мониторинга mysql 
+/etc/zabbix/zabbix_agentd.d/userparameter_mysql.conf
+
+надо везде написать mysqladmin ping 2>/dev/null , что бы ошибки не ломали логику тригеров
+
+
 
