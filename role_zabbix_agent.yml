@@ -1,5 +1,5 @@
 ---
-- name: Install Duplicati and open 8200 tcp port via iptables
+- name: Install Zabbix agent and open 10050 tcp port via iptables
   hosts: myserver
   vars_files: vars.yaml
   become: yes
